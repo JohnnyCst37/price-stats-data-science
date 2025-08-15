@@ -1,152 +1,192 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1f77b4&height=120&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=1f77b4&size=35&center=true&vCenter=true&width=1000&lines=OLÁ,+EU+SOU+O+JOHNNY+FERNANDES;ANALISTA+DE+DADOS;CIENTISTA+DE+DADOS+EM+FORMAÇÃO;CONSULTOR+DE+NEGÓCIOS;SEJA+BEM-VINDO!+%3A%29)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=1f77b4&size=35&center=true&vCenter=true&width=1000&lines=SUPERMARKET+PRODUCT+ANALYSIS+IN+CHILE;PRICE+STATISTICS+BY+CATEGORY+AND+BRAND;Using+Mean,+Median,+and+Standard+Deviation;WITH+GRAPHS+AND+MAPS;WELCOME+TO+MY+PORTFOLIO!)](https://git.io/typing-svg)
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-An%C3%A1lise%20de%20Dados-orange?logo=pandas)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualiza%C3%A7%C3%A3o%20Gr%C3%A1fica-blue?logo=matplotlib)
-![License](https://img.shields.io/badge/Licen%C3%A7a-MIT-green)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
-
-
-## 📑 Sumário
-
-- [Objetivo](#-objetivo)
-- [Tecnologias](#-tecnologias-utilizadas)
-- [Estrutura](#-estrutura-do-projeto)
-- [Análises Estatísticas](#-análises-estatísticas)
-- [Exemplos de Gráficos](#-exemplos-de-gráficos)
-- [Insights Possíveis](#-insights-possíveis)
-- [Como Executar](#-como-executar)
-- [Dataset](#-dataset-recomenda-se-usar-um-ambiente-virtual)
-- [Autor](#-autor)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange?logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Graphical%20Visualization-blue?logo=matplotlib)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
 
-# 📊 Análise Comparativa — Preço Normal x Preço Unitário
+## 📑 Summary
 
-Este repositório contém uma análise exploratória comparando **Preço Normal (R$)** e **Preço Unitário** de produtos, com destaque para variações por categoria.  
-A análise foi realizada utilizando **Python**, com bibliotecas de manipulação e visualização de dados.
-
-## 🎯 Objetivo
-
-Avaliar diferenças e dispersões entre os preços praticados, identificando categorias com maiores impactos e variações significativas, destacando:
-
-- Produtos com maior variação de preço.
-- Impacto em categorias específicas como **lácteos** e **beleza e cuidado pessoal**.
-- Distribuição e comportamento estatístico (média, mediana e desvio padrão) por categoria.
-
----
-
-## 🛠 Tecnologias Utilizadas
-
-- Python 3.13
-- Pandas
-- Matplotlib
-- Seaborn
-- PyCharm / VSCode
+- [Objective](#-objective)
+- [Technologies](#-technologies-used)
+- [Project Structure](#-project-structure)
+- [Statistical Analysis](#-statistical-analysis)
+- [Chart Examples](#-chart-examples)
+- [Possible Insights](#-possible-insights)
+- [How to Run](#-how-to-run)
+- [Dataset](#-dataset-it-is-recommended-to-use-a-virtual-environment)
+- [Author](#-author)
 
 ---
 
-## 📂 Estrutura do Projeto
-analise_precos/
-│
-├── img/ # Imagens geradas dos gráficos
-├── analise_precos.py # Script principal de análise
-├── dataset_limpo.csv # Dataset tratado
-└── README.md # Este arquivo
+# Comparative Analysis — Regular Price vs. Unit Price
 
+This repository contains an exploratory analysis comparing **Regular Price (R$)** and **Unit Price** of supermarket products, with emphasis on variations across categories.  
+The analysis was conducted using **Python**, leveraging data manipulation and visualization libraries.
 
 ---
 
-## 📈 Análises Estatísticas
+## Objective
 
-### **Estatísticas Gerais**
-| Métrica          | Preço Normal (R$) | Preço Unitário |
-|------------------|-------------------|----------------|
-| Média            | 28.20             | 21.57          |
-| Desvio Padrão    | 31.35              | 21.57          |
-| Contagem (n)     | 813.000            | 813.000        |
+Evaluate pricing strategies and dispersion, identifying categories with the greatest impact and significant variation, highlighting:
 
----
-
-### **Por Categoria — Preço Unitário**
-| Categoria                    | Média  | Mediana | Desvio Padrão |
-|------------------------------|--------|---------|---------------|
-| belleza-y-cuidado-personal   | 28.84  | 20.99   | 21.67         |
-| comidas-preparadas           | 39.55  | 37.40   | 13.22         |
-| congelados                   | 30.21  | 29.54   | 19.04         |
-| frutas                       | 17.24  | 11.95   | 16.39         |
-| instantaneos-y-sopas         | 11.79  | 6.89    | 12.76         |
-| **lacteos**                   | **15.13**  | **9.89**    | **17.82**     |
-| verduras                     | 14.57  | 12.50   | 9.72          |
+- Products with the highest price fluctuation  
+- Impact on specific categories such as **dairy** and **beauty & personal care**  
+- Statistical distribution and behavior (mean, median, and standard deviation) by category
 
 ---
 
-### **Por Categoria — Preço Normal (R$)**
-| Categoria                    | Média  | Mediana | Desvio Padrão |
-|------------------------------|--------|---------|---------------|
-| belleza-y-cuidado-personal   | 29.20  | 21.79   | 21.63         |
-| comidas-preparadas           | 39.55  | 37.40   | 13.22         |
-| congelados                   | 30.21  | 29.54   | 19.04         |
-| frutas                       | 17.24  | 11.95   | 16.39         |
-| instantaneos-y-sopas         | 11.79  | 6.89    | 12.76         |
-| **lacteos**                   | **30.29**  | **17.20**   | **41.99**     |
-| verduras                     | 14.57  | 12.50   | 9.72          |
+## Technologies Used
+
+- **Python 3.13**
+- **Jupyter Notebook** (recommended for interactive analysis)
+- **Development Environments**: PyCharm / VSCode
+- **Libraries**:
+  - `pandas` — data manipulation
+  - `numpy` — numerical operations
+  - `matplotlib.pyplot` — static visualizations
+  - `seaborn` — statistical plots
+  - `plotly.express` — interactive charts and maps
 
 ---
 
-## 📊 Exemplos de Gráficos
+## 📁 Project Structure
 
-> A seguir, alguns gráficos gerados a partir da análise (todas as imagens estão na pasta `img/`):
-
-### ✅ Comparativo — Preço Normal x Preço Unitário
-<img src="img/grafico_comparativo.png" width="600"/>
-
-### ✅ Distribuição de Preços por Categoria
-<img src="img/distribuicao_categorias.png" width="600"/>
-
-### ✅ Dispersão de Preços
-<img src="img/boxplot_precos.png" width="600"/>
-
----
-
-## 💡 Insights Possíveis
-
-- **Produtos lácteos** apresentam a maior diferença entre Preço Normal e Preço Unitário.
-- Categoria **beleza-y-cuidado-personal** tem **mediana e desvio padrão muito próximos**, indicando pouca dispersão e ausência de outliers relevantes.
-- Categorias como **lácteos** têm desvio padrão elevado, mostrando forte variação de preços.
-- Preço Unitário tende a ser mais estável que o Preço Normal.
+```
+price-analysis-chile/
+├── .git/                          # Git version control
+├── .ipynb_checkpoints/            # Jupyter auto-saves
+├── data/
+│   └── raw/                       # Raw dataset (CSV)
+├── docs/                          # Documentation and interactive files (e.g., treemap.html)
+├── img/                           # Generated chart images
+├── notebooks/
+│   ├── analise_precos.ipynb       # Main analysis notebook
+│   └── Profissao Cientista de Dados_Extraindo_Médias.ipynb  # Legacy notebook for study
+├── .gitignore                     # Git ignore rules
+├── README.md                      # Project overview and instructions
+└── requirements.txt               # Project dependencies
+```
 
 ---
 
-## ▶ Como Executar
+## 📈 Statistical Analysis
+
+### **General Statistics**
+| Metric           | Regular Price (R$) | Unit Price |
+|------------------|--------------------|------------|
+| Mean             | 28.20              | 21.57      |
+| Standard Deviation | 31.35            | 21.57      |
+| Count (n)        | 813.000            | 813.000    |
+
+---
+
+### **By Category — Unit Price**
+| Category                    | Mean   | Median | Std. Dev. |
+|-----------------------------|--------|--------|-----------|
+| belleza-y-cuidado-personal | 28.84  | 20.99  | 21.67     |
+| comidas-preparadas         | 39.55  | 37.40  | 13.22     |
+| congelados                 | 30.21  | 29.54  | 19.04     |
+| frutas                     | 17.24  | 11.95  | 16.39     |
+| instantaneos-y-sopas       | 11.79  | 6.89   | 12.76     |
+| **lacteos**                | **15.13** | **9.89** | **17.82** |
+| verduras                   | 14.57  | 12.50  | 9.72      |
+
+---
+
+### **By Category — Regular Price (R$)**
+| Category                    | Mean   | Median | Std. Dev. |
+|-----------------------------|--------|--------|-----------|
+| belleza-y-cuidado-personal | 29.20  | 21.79  | 21.63     |
+| comidas-preparadas         | 39.55  | 37.40  | 13.22     |
+| congelados                 | 30.21  | 29.54  | 19.04     |
+| frutas                     | 17.24  | 11.95  | 16.39     |
+| instantaneos-y-sopas       | 11.79  | 6.89   | 12.76     |
+| **lacteos**                | **30.29** | **17.20** | **41.99** |
+| verduras                   | 14.57  | 12.50  | 9.72      |
+
+---
+
+## Chart Examples
+
+> Below are some visualizations generated from the analysis (all images are stored in the `img/` folder):
+
+### ✅ Price Dispersion — Boxplot Comparison
+<img src="img/blox02.png" width="600"/>
+
+### ✅ Price Distribution by Category — Interactive Treemap
+<img src="img/treemap_interativo.png" width="600"/>
+
+---
+
+## Possible Insights
+
+- **Dairy products** show the largest difference between Regular and Unit Price.
+- The **beauty & personal care** category has a tight median and standard deviation, indicating low dispersion and few outliers.
+- Categories like **dairy** have high standard deviation, suggesting strong price variation.
+- Unit Price tends to be more stable than Regular Price.
+
+---
+
+## ▶ How to Run
 
 ```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/analise_precos.git
+# Clone the repository
+git clone https://github.com/seu-usuario/price-analysis-chile.git
 
-# Acesse a pasta do projeto
-cd analise_precos
+# Navigate to the project folder
+cd price-analysis-chile
 
-# Instale as dependências
-pip install pandas matplotlib seaborn
+# (Optional) Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
 
-# Execute o script principal
-python analise_precos.py
+# Install dependencies
+pip install -r requirements.txt
+```
 
-📂 Dataset (recomenda-se usar um ambiente virtual)
+### Running the Analysis
 
-O dataset já está limpo e tratado para análise.
-Caso queira gerar novamente os gráficos, certifique-se de ter as bibliotecas instaladas e execute os scripts Python.
+- Open the main notebook:
+  ```
+  notebooks/analise_precos.ipynb
+  ```
 
-👨‍💻 Autor
-
-Johnny Sorato Martins Fernandes
-Consultor de Negócios | Especialista em Dados e Visualização | Diretor Executivo da Tutoreanos - Unidade Primavera do Leste
-
+- For study and comparison purposes, explore:
+  ```
+  notebooks/Profissao Cientista de Dados_Extraindo_Médias.ipynb
+  ```
 
 ---
+
+## 📂 Dataset (It is recommended to use a virtual environment)
+
+The dataset is available in:
+
+```
+data/raw/
+```
+
+It is ready for analysis. To regenerate the charts, ensure all libraries are installed and run the notebooks via Jupyter.
+
+---
+
+## 👨‍💻 Author
+
+**Johnny Sorato Martins Fernandes**  
+Business Consultant | Data & Visualization Specialist | Executive Director at Tutoreanos — Primavera do Leste Unit
+
+---
+
 ## 🔖 Tags
-data-science, price-analysis, product-categories, descriptive-statistics, boxplot, discount-visualization, interactive-map, python, pandas, seaborn, plotly
+
+`data-science`, `price-analysis`, `product-categories`, `descriptive-statistics`, `boxplot`, `discount-visualization`, `interactive-map`, `python`, `pandas`, `seaborn`, `plotly`
+
+---
+
+Let me know if you'd like a second README focused just on the notebooks or study materials. I can whip that up next!
