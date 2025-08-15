@@ -54,7 +54,7 @@ Evaluate pricing strategies and dispersion, identifying categories with the grea
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 price-analysis-chile/
