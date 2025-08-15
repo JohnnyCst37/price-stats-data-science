@@ -119,7 +119,23 @@ price-analysis-chile/
 <img src="img/blox02.png" width="600"/>
 
 ### ✅ Price Distribution by Category — Interactive Treemap
-<img src="img/treemap_interativo.png" width="600"/>
+<img src="img/treemap_interativo.png" width="400"/>
+
+### ✅ Discount Distribution — Density Plot
+To better understand how discounts are distributed across products, a density plot was generated using the difference between Regular Price and Unit Price.
+🎯 Purpose
+- Identify the most common discount ranges
+- Detect skewness or concentration of discounts
+- Highlight categories with aggressive pricing strategies
+Methodology
+The discount was calculated as:
+discount = regular_price - unit_price
+
+Then visualized using seaborn.kdeplot() to show the probability density of discount values.
+Visualization
+Below is the density plot showing the distribution of discounts across all products:
+
+<img src="img/desconto_dens.png" width="600"/>
 
 ---
 
@@ -188,5 +204,3 @@ Business Consultant | Data & Visualization Specialist | Executive Director at Tu
 `data-science`, `price-analysis`, `product-categories`, `descriptive-statistics`, `boxplot`, `discount-visualization`, `interactive-map`, `python`, `pandas`, `seaborn`, `plotly`
 
 ---
-
-Let me know if you'd like a second README focused just on the notebooks or study materials. I can whip that up next!
