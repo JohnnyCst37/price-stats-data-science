@@ -136,7 +136,7 @@ Then visualized using seaborn.kdeplot() to show the probability density of disco
 Visualization
 Below is the density plot showing the distribution of discounts across all products:
 
-<img src="img/dens.png" width="600"/>
+<img src="img/dens11.png" width="600"/>
 
 ---
 
