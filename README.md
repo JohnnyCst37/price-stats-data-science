@@ -58,18 +58,19 @@ Evaluate pricing strategies and dispersion, identifying categories with the grea
 
 ```
 price-analysis-chile/
-├── .git/                          # Git version control
-├── .ipynb_checkpoints/            # Jupyter auto-saves
+├── .git/                          # Git version control metadata
+├── .ipynb_checkpoints/            # Auto-saved checkpoints from Jupyter
 ├── data/
-│   └── raw/                       # Raw dataset (CSV)
-├── docs/                          # Documentation and interactive files (e.g., treemap.html)
-├── img/                           # Generated chart images
+│   └── raw/                       # Raw dataset files (e.g., CSV)
+├── docs/                          # Documentation and interactive assets (e.g., treemap.html)
+├── img/                           # Exported chart images and visualizations
 ├── notebooks/
-│   ├── analise_precos.ipynb       # Main analysis notebook
-│   └── Profissao Cientista de Dados_Extraindo_Médias.ipynb  # Legacy notebook for study
-├── .gitignore                     # Git ignore rules
-├── README.md                      # Project overview and instructions
-└── requirements.txt               # Project dependencies
+│   ├── price_analysis.ipynb       # Main analysis notebook
+│   └── data_scientist_study.ipynb # Legacy notebook for comparison and study
+├── .gitignore                     # Git ignore rules for unnecessary files
+├── README.md                      # Main project overview (English)
+├── README_pt.md                   # Project overview in Portuguese
+└── requirements.txt               # Python dependencies for the project
 ```
 
 ---
