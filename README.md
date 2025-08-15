@@ -123,7 +123,8 @@ price-analysis-chile/
 
 ### ✅ Discount Distribution — Density Plot
 To better understand how discounts are distributed across products, a density plot was generated using the difference between Regular Price and Unit Price.
-🎯 Purpose
+
+Purpose
 - Identify the most common discount ranges
 - Detect skewness or concentration of discounts
 - Highlight categories with aggressive pricing strategies
@@ -135,7 +136,7 @@ Then visualized using seaborn.kdeplot() to show the probability density of disco
 Visualization
 Below is the density plot showing the distribution of discounts across all products:
 
-<img src="img/desconto_dens.png" width="600"/>
+<img src="img/dens.png" width="600"/>
 
 ---
 
