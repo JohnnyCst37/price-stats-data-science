@@ -1,3 +1,8 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1f77b4&height=120&section=header"/>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=1f77b4&size=35&center=true&vCenter=true&width=1000&lines=OLÁ,+EU+SOU+O+JOHNNY+FERNANDES;ANALISTA+DE+DADOS;CIENTISTA+DE+DADOS+EM+FORMAÇÃO;CONSULTOR+DE+NEGÓCIOS;SEJA+BEM-VINDO!+%3A%29)](https://git.io/typing-svg)
+
+
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-An%C3%A1lise%20de%20Dados-orange?logo=pandas)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualiza%C3%A7%C3%A3o%20Gr%C3%A1fica-blue?logo=matplotlib)
