@@ -133,6 +133,16 @@ Figure 2: Statistical summary of regular prices by category. The notable differe
 ### ✅ Price Dispersion — Boxplot Comparison
 <img src="img/blox02.png" width="600"/>
 
+Key Insights
+
+🔹 Regular Price shows a higher mean and wider dispersion compared to Unit Price.
+
+🔹 The gap between the median (center line of the box) and the maximum values highlights the presence of outliers — premium or niche products driving prices upward.
+
+🔹 Unit Price has a more concentrated distribution, indicating greater stability and market predictability.
+
+🔹 The discrepancy between the two reinforces that the Dairy category is highly segmented between basic and premium products.
+
 ### ✅ Price Distribution by Category — Interactive Treemap
 <img src="img/treemap_interativo.png" width="400"/>
 
