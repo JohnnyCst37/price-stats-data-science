@@ -11,15 +11,15 @@
 
 ## 📑 Summary
 
-- [Objective](#-objective)
-- [Technologies](#-technologies-used)
-- [Project Structure](#-project-structure)
-- [Statistical Analysis](#-statistical-analysis)
-- [Chart Examples](#-chart-examples)
-- [Possible Insights](#-possible-insights)
-- [How to Run](#-how-to-run)
-- [Dataset](#-dataset-it-is-recommended-to-use-a-virtual-environment)
-- [Author](#-author)
+- [Objective](#objective)
+- [Technologies](#technologies-used)
+- [Project Structure](#project-structure)
+- [Statistical Analysis](#statistical-analysis)
+- [Chart Examples](#chart-examples)
+- [Possible Insights](#possible-insights)
+- [How to Run](#how-to-run)
+- [Dataset](#dataset-it-is-recommended-to-use-a-virtual-environment)
+- [Author](#author)
 
 ---
 
@@ -75,7 +75,7 @@ price-analysis-chile/
 
 ---
 
-## 📈 Statistical Analysis
+## Statistical Analysis
 
 ### **General Statistics**
 | Metric           | Regular Price (R$) | Unit Price |
@@ -150,7 +150,7 @@ Below is the density plot showing the distribution of discounts across all produ
 
 ---
 
-## ▶ How to Run
+## How to Run
 
 ```bash
 # Clone the repository
@@ -182,7 +182,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📂 Dataset (It is recommended to use a virtual environment)
+## 📂Dataset (It is recommended to use a virtual environment)
 
 The dataset is available in:
 
@@ -194,7 +194,7 @@ It is ready for analysis. To regenerate the charts, ensure all libraries are ins
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻Author
 
 **Johnny Sorato Martins Fernandes**  
 Business Consultant | Data & Visualization Specialist | Executive Director at Tutoreanos — Primavera do Leste Unit
