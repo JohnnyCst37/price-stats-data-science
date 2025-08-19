@@ -9,6 +9,7 @@
 
 ---
 
+
 ## 📑 Summary
 
 - [Objective](#objective)
@@ -77,6 +78,13 @@ price-analysis-chile/
 
 ## Statistical Analysis
 
+Price Analysis by Category
+Overview
+
+The Average Regular Price ($28.20) is higher than the Average Unit Price ($21.57), which indicates there's room for promotions and smaller packaging.
+
+The high price dispersion (high standard deviation) suggests product heterogeneity, with different perceived value ranges.
+
 ### **General Statistics**
 | Metric           | Regular Price (R$) | Unit Price |
 |------------------|--------------------|------------|
@@ -85,21 +93,10 @@ price-analysis-chile/
 | Count (n)        | 813.000            | 813.000    |
 
 ---
-
-### **By Category — Unit Price**
-| Category                    | Mean   | Median | Std. Dev. |
-|-----------------------------|--------|--------|-----------|
-| belleza-y-cuidado-personal | 28.84  | 20.99  | 21.67     |
-| comidas-preparadas         | 39.55  | 37.40  | 13.22     |
-| congelados                 | 30.21  | 29.54  | 19.04     |
-| frutas                     | 17.24  | 11.95  | 16.39     |
-| instantaneos-y-sopas       | 11.79  | 6.89   | 12.76     |
-| **lacteos**                | **15.13** | **9.89** | **17.82** |
-| verduras                   | 14.57  | 12.50  | 9.72      |
-
----
+Figure 1: General Statistics of Regular and Unit Prices. Note the large price dispersion in Regular Price, indicated by a standard deviation (31.35) higher than the mean (28.20), suggesting a high degree of product variety and price segmentation.
 
 ### **By Category — Regular Price (R$)**
+
 | Category                    | Mean   | Median | Std. Dev. |
 |-----------------------------|--------|--------|-----------|
 | belleza-y-cuidado-personal | 29.20  | 21.79  | 21.63     |
@@ -109,6 +106,23 @@ price-analysis-chile/
 | instantaneos-y-sopas       | 11.79  | 6.89   | 12.76     |
 | **lacteos**                | **30.29** | **17.20** | **41.99** |
 | verduras                   | 14.57  | 12.50  | 9.72      |
+
+---
+
+Figure 2: Statistical summary of regular prices by category. The notable difference between the mean ($30.29) and median ($17.20) for the 'lacteos' category, coupled with the highest standard deviation ($41.99), indicates a wide price range, likely driven by a few very expensive items or product types.
+
+### **Comparison of Mean and Median Regular Price ($)**
+
+| Category                     | Average Price (R$) | Median (R$) | Strategic Insight                                                                                       |
+| ---------------------------- | ----------------- | ----------- | ------------------------------------------------------------------------------------------------------- |
+| **Prepared Foods**           | 39.55             | 37.40       | Highest average ticket, **premium market**; consumers are willing to pay more.                          |
+| **Frozen Foods**             | 30.21             | 29.54       | Stable values, low deviation; reliable category for predictable margins.                                |
+| **Beauty & Personal Care**   | 29.20             | 21.79       | High dispersion → both basic and premium products. Opportunity for **audience segmentation**.            |
+| **Dairy**                    | 30.29             | 17.20       | **Highest standard deviation (41.99)** → strong price volatility; **urgent portfolio and promotion review**. |
+| **Fruits**                   | 17.24             | 11.95       | Low average value, focus on **volume and customer loyalty**.                                             |
+| **Vegetables**               | 14.57             | 12.50       | Similar to fruits → low margins, but essential for driving customer traffic.                            |
+| **Instant Foods & Soups**    | 11.79             | 6.89        | **Low-value category**, but can be used as a **promotional hook** to increase basket size.               |
+
 
 ---
 
