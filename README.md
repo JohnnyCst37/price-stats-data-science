@@ -153,12 +153,32 @@ Purpose
 - Identify the most common discount ranges
 - Detect skewness or concentration of discounts
 - Highlight categories with aggressive pricing strategies
-Methodology
-The discount was calculated as:
-discount = regular_price - unit_price
+Methodology: Simple Discount Simulation
+
+```bash
+### This simple simulation was performed to observe the behavior of prices when a discount is applied.
+
+The following code was used to calculate the discounted price:
+
+df['Discounted_Price'] = (df['Regular_Price'] * (1 - df['Discount_%'] / 100)).round(2)
+
+What does this code do?
+
+This calculation automatically generates the final price after a discount has been applied to each product or service.
+
+Regular_Price → This is the original, normal value of the item.
+
+Discount_% → This is the percentage discount (e.g., between 5% and 15% in this simulation).
+
+The code applies the formula:
+
+Final Price = Regular Price × (1 – Discount/100)
 
 Then visualized using seaborn.kdeplot() to show the probability density of discount values.
 Visualization
+```
+
+
 Below is the density plot showing the distribution of discounts across all products:
 
 <img src="img/dens11.png" width="600"/>
