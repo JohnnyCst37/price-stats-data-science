@@ -133,6 +133,17 @@ A alta dispersão dos preços (alto desvio padrão) sugere heterogeneidade de pr
 ### ✅ Dispersão de Preços — Comparação Boxplot
 <img src="img/blox02.png" width="600"/>
 
+### Principais Observações
+
+`🔹 O Preço Regular apresenta média mais alta e dispersão mais ampla em relação ao Preço Unitário.`
+
+`🔹 A distância entre a mediana (linha central da caixa) e os valores máximos evidencia a presença de outliers, representando produtos premium ou de nicho, que puxam os preços para cima.`
+
+`🔹 O Preço Unitário possui uma distribuição mais concentrada, indicando maior estabilidade e previsibilidade de mercado.`
+
+`🔹 A discrepância entre os dois reforça que a categoria Lácteos é altamente segmentada entre produtos básicos e premium.`
+
+
 ### ✅ Distribuição por Categoria — Treemap Interativo
 <img src="img/treemap_interativo.png" width="400"/>
 
